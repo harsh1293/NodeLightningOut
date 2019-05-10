@@ -1,0 +1,11 @@
+{
+  "name": "contact-form",
+  "description": "Contact form for public,
+  "keywords": [
+    "app-cloud"
+  ],
+  "repository": "https://github.com/harsh1293/NodeLightningOut",
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
