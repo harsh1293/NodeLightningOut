@@ -3,10 +3,11 @@ var express = require('express');
 var port = process.env.PORT || 3000;
 
 var org = nforce.createConnection({
-  clientId: '3MVG9uudbyLbNPZMk0vYn7ICarLW4qV5bLdL.KqYws.i1.oN99y14Skth6utXg0nwCuPpSMtr9lB7HIOx6M65',
-  clientSecret: '6326007125179395206',
-  redirectUri: 'https://protected-fortress-46904.herokuapp.com/oauth/_callback',
-  apiVersion: 'v34.0',  // optional, defaults to current salesforce API version
+  clientId: '3MVG9d8..z.hDcPLEP6C2EcBTo6ks2qqTA8mFZRhqbGV1yL2dVdO6IPKVBGBAO67FVYS.z.67AksJBPXuv1Wq
+',
+  clientSecret: '68969CDF10DB831A94AA005E585EBD35FE9D8B4CBAE35E5D5F6D9D12F08B4943',
+  redirectUri: 'https://aura-app-hp.herokuapp.com/oauth/_callback',
+  apiVersion: 'v45.0',  // optional, defaults to current salesforce API version
   environment: 'production',  // optional, salesforce 'sandbox' or 'production', production default
   mode: 'multi' // optional, 'single' or 'multi' user mode, multi default
 });
